@@ -3,7 +3,7 @@ import { AboutSection } from "@/components/AboutSection";
 import { getGithubContributions } from "@/lib/github";
 import { SOCIAL } from "@/lib/social";
 
-export const revalidate = 3600; // Revalidate live GitHub activity hourly
+export const revalidate = 60; // Revalidate live GitHub activity
 
 export default async function Home() {
   const contributions = await getGithubContributions(SOCIAL.github.username);
