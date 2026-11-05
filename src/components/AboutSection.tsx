@@ -65,19 +65,19 @@ export function AboutSection() {
             &ldquo;Hi, I&apos;m <span className="font-bold text-foreground">{SOCIAL.name}</span>. My software engineering journey began back in 2021 driven by a passion for building scalable web systems. Over the years, I coded and deployed numerous applications and tools. While many of those early experiments never blew up, each build was an invaluable masterclass that refined my technical craft and engineering discipline.&rdquo;
           </p>
 
-          {/* Paragraph 2: Core Vision for Nodezed (Mission with bold Nodezed link) */}
+          {/* Paragraph 2: Core Vision for Intent Host (Mission with bold Intent Host link) */}
           <p className="text-[15px] sm:text-base leading-relaxed text-foreground font-normal">
             &ldquo;Today, all my energy and focus are poured into building{" "}
             <a
-              href="https://nodezed.com"
+              href="https://intenthost.com"
               target="_blank"
               rel="noopener noreferrer"
               className="font-bold text-foreground underline underline-offset-4 decoration-foreground/40 hover:decoration-foreground inline-flex items-center gap-0.5"
             >
-              Nodezed
+              Intent Host
               <ArrowUpRight className="w-3.5 h-3.5" />
             </a>
-            . We are solving a bottleneck every builder encounters: deploying cloud infrastructure shouldn&apos;t require wrestling with complex DevOps configurations. Nodezed enables developers and businesses to launch and manage scalable cloud systems in a single click.&rdquo;
+            . We are removing the friction from web infrastructure—bringing ultra-fast NVMe cloud hosting, managed WordPress, domains, and dedicated servers together into one seamless platform engineered for pure speed, automated provisioning, and zero downtime.&rdquo;
           </p>
 
           {/* Paragraph 3: Monochrome Philosophy (A little less color, not too much: text-foreground/80) */}
@@ -93,19 +93,19 @@ export function AboutSection() {
             &ldquo;Hi, I&apos;m <span className="font-bold text-foreground">{SOCIAL.name}</span>. My software journey began in 2021. Over the years, I coded and shipped dozens of applications and systems. While none blew up, each project refined my craft and taught me resilience.&rdquo;
           </p>
 
-          {/* Paragraph 2: Nodezed */}
+          {/* Paragraph 2: Intent Host */}
           <p className="text-[14px] leading-relaxed text-foreground font-normal">
             &ldquo;Today, all my energy is focused on building{" "}
             <a
-              href="https://nodezed.com"
+              href="https://intenthost.com"
               target="_blank"
               rel="noopener noreferrer"
               className="font-bold text-foreground underline underline-offset-4 decoration-foreground/40 hover:decoration-foreground inline-flex items-center gap-0.5"
             >
-              Nodezed
+              Intent Host
               <ArrowUpRight className="w-3.5 h-3.5" />
             </a>
-            . We&apos;re removing DevOps friction—enabling developers and businesses to launch and scale automated cloud infrastructure in a single click.&rdquo;
+            . We&apos;re stripping away hosting complexity—delivering ultra-fast NVMe cloud hosting, managed WordPress, domains, and bare-metal servers engineered for pure speed.&rdquo;
           </p>
 
           {/* Paragraph 3: Monochrome */}

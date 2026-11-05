@@ -205,15 +205,15 @@ export function ProfileHeader({ initialContributions = [] }: ProfileHeaderProps)
         >
           Founder & CEO at{" "}
           <a
-            href="https://nodezed.com"
+            href="https://intenthost.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-foreground font-semibold hover:underline inline-flex items-center gap-0.5"
           >
-            Nodezed
+            Intent Host
             <ArrowUpRight className="w-3.5 h-3.5" />
           </a>
-          {", enabling developers and businesses to deploy scalable cloud infrastructure in a single click."}
+          {", high-performance web hosting, cloud infrastructure, NVMe servers, and domains engineered for pure speed."}
         </motion.p>
       </div>
     </motion.div>

@@ -37,8 +37,8 @@ export const ARTICLES: Article[] = [
       "A simpler, transparent way to deploy and manage cloud infrastructure. Nodezed brings compute, storage, databases, and edge networking to developers.",
     author: {
       name: "Subh Mondal",
-      role: "Founder & CEO at Nodezed",
-      handle: "@subhmnd",
+      role: "Founder & CEO at Intent Host",
+      handle: "@subhmondal_",
       avatar: "https://avatars.githubusercontent.com/u/269526018",
     },
     sections: [
