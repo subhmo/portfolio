@@ -13,8 +13,8 @@ export const SOCIAL = {
   handle: "@subhmondal_",
   avatar: "https://avatars.githubusercontent.com/u/269526018",
   title: "Founder & CEO at Intent Host",
-  bio: "Founder & CEO at Intent Host, high-performance web hosting, cloud infrastructure, NVMe servers, and domains engineered for pure speed.",
-  shortBio: "Hi I am Subh! Founder & CEO at Intent Host.",
+  bio: "Founder & CEO at Intent Host, offering fast NVMe web hosting, cloud infrastructure, bare metal servers, and domain services.",
+  shortBio: "Hi, I'm Subh. Founder & CEO at Intent Host.",
   domain: "subhmondal.com",
   website: "https://subhmondal.com",
   company: {

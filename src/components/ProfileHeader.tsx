@@ -213,7 +213,7 @@ export function ProfileHeader({ initialContributions = [] }: ProfileHeaderProps)
             Intent Host
             <ArrowUpRight className="w-3.5 h-3.5" />
           </a>
-          {", high-performance web hosting, cloud infrastructure, NVMe servers, and domains engineered for pure speed."}
+          {", offering fast NVMe web hosting, cloud infrastructure, bare metal servers, and domain services."}
         </motion.p>
       </div>
     </motion.div>

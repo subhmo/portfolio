@@ -31,13 +31,13 @@ export function generateMetadata({ params }: Props): Metadata {
   const imageUrl = `${siteUrl}${article.image}`;
 
   return {
-    title: `${article.title} — ${SOCIAL.name}`,
+    title: `${article.title} · ${SOCIAL.name}`,
     description: article.subtitle,
     alternates: {
       canonical: canonicalUrl,
     },
     openGraph: {
-      title: `${article.title} — ${SOCIAL.name}`,
+      title: `${article.title} · ${SOCIAL.name}`,
       description: article.subtitle,
       url: canonicalUrl,
       type: "article",
@@ -55,7 +55,7 @@ export function generateMetadata({ params }: Props): Metadata {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${article.title} — ${SOCIAL.name}`,
+      title: `${article.title} · ${SOCIAL.name}`,
       description: article.subtitle,
       creator: SOCIAL.x.handle,
       site: SOCIAL.x.handle,

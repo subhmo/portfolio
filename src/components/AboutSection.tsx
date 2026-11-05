@@ -53,64 +53,32 @@ export function AboutSection() {
         </span>
       </motion.div>
 
-      {/* Editorial Quotation Story with Left Accent Line and Visual Hierarchy */}
+      {/* Human Narrative Story */}
       <motion.div
         variants={cascadeDownVariants}
         className="relative border-l-2 border-foreground/80 pl-5 sm:pl-6 py-1 space-y-4"
       >
-        {/* DESKTOP VERSION (md & up) - Rich narrative with clear hierarchy */}
-        <div className="hidden md:block space-y-4">
-          {/* Paragraph 1: Head / Origin (A little bit bold: font-medium, name in font-bold) */}
-          <p className="text-[15px] sm:text-base leading-relaxed text-foreground font-medium">
-            &ldquo;Hi, I&apos;m <span className="font-bold text-foreground">{SOCIAL.name}</span>. My software engineering journey began back in 2021 driven by a passion for building scalable web systems. Over the years, I coded and deployed numerous applications and tools. While many of those early experiments never blew up, each build was an invaluable masterclass that refined my technical craft and engineering discipline.&rdquo;
+        <div className="space-y-4 text-[15px] sm:text-base leading-relaxed text-foreground font-normal">
+          <p>
+            Hi, I&apos;m <span className="font-semibold text-foreground">{SOCIAL.name}</span>. My software journey started back in 2021 out of curiosity and an urge to build things on the web. Over the years, I coded and deployed plenty of tools and apps. Most of the early experiments never took off, but building them taught me how to write solid software and see things through.
           </p>
 
-          {/* Paragraph 2: Core Vision for Intent Host (Mission with bold Intent Host link) */}
-          <p className="text-[15px] sm:text-base leading-relaxed text-foreground font-normal">
-            &ldquo;Today, all my energy and focus are poured into building{" "}
+          <p>
+            Today, all my energy and focus go into building{" "}
             <a
               href="https://intenthost.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-bold text-foreground underline underline-offset-4 decoration-foreground/40 hover:decoration-foreground inline-flex items-center gap-0.5"
+              className="font-semibold text-foreground underline underline-offset-4 decoration-foreground/40 hover:decoration-foreground inline-flex items-center gap-0.5"
             >
               Intent Host
               <ArrowUpRight className="w-3.5 h-3.5" />
             </a>
-            . We are removing the friction from web infrastructure—bringing ultra-fast NVMe cloud hosting, managed WordPress, domains, and dedicated servers together into one seamless platform engineered for pure speed, automated provisioning, and zero downtime.&rdquo;
+            . Getting a website or server online should not be complicated or stressful. We provide fast NVMe web hosting, managed WordPress, cloud instances, bare metal servers, and domain registration with simple controls and dependable support.
           </p>
 
-          {/* Paragraph 3: Monochrome Philosophy (A little less color, not too much: text-foreground/80) */}
-          <p className="text-sm sm:text-[15px] leading-relaxed text-foreground/80 font-normal">
-            &ldquo;I have always had a deliberate obsession with monochrome. Black and white strips away decorative visual noise, forcing the interface to stand on the raw strength of its structure, spacing, and typography—which is why I chose it over colors.&rdquo;
-          </p>
-        </div>
-
-        {/* MOBILE & TABLET VERSION (< md) - Compact narrative */}
-        <div className="block md:hidden space-y-3.5">
-          {/* Paragraph 1: Head / Origin */}
-          <p className="text-[14px] leading-relaxed text-foreground font-medium">
-            &ldquo;Hi, I&apos;m <span className="font-bold text-foreground">{SOCIAL.name}</span>. My software journey began in 2021. Over the years, I coded and shipped dozens of applications and systems. While none blew up, each project refined my craft and taught me resilience.&rdquo;
-          </p>
-
-          {/* Paragraph 2: Intent Host */}
-          <p className="text-[14px] leading-relaxed text-foreground font-normal">
-            &ldquo;Today, all my energy is focused on building{" "}
-            <a
-              href="https://intenthost.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-bold text-foreground underline underline-offset-4 decoration-foreground/40 hover:decoration-foreground inline-flex items-center gap-0.5"
-            >
-              Intent Host
-              <ArrowUpRight className="w-3.5 h-3.5" />
-            </a>
-            . We&apos;re stripping away hosting complexity—delivering ultra-fast NVMe cloud hosting, managed WordPress, domains, and bare-metal servers engineered for pure speed.&rdquo;
-          </p>
-
-          {/* Paragraph 3: Monochrome */}
-          <p className="text-[13px] leading-relaxed text-foreground/80 font-normal">
-            &ldquo;I have always chosen monochrome. Black and white strips away visual noise, allowing pure structure, spacing, and typography to stand on their own.&rdquo;
+          <p className="text-foreground/80">
+            I keep this site monochrome on purpose. Black and white strips away visual clutter, letting the typography, spacing, and structure stand on their own.
           </p>
         </div>
       </motion.div>
