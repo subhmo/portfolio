@@ -60,11 +60,11 @@ export function AboutSection() {
       >
         <div className="space-y-4 text-[15px] sm:text-base leading-relaxed text-foreground font-normal">
           <p>
-            Hi, I&apos;m <span className="font-semibold text-foreground">{SOCIAL.name}</span>. My software journey started back in 2021 out of curiosity and an urge to build things on the web. Over the years, I coded and deployed plenty of tools and apps. Most of the early experiments never took off, but building them taught me how to write solid software and see things through.
+            Started writing code back in 2021, building web apps and messing around with servers. Shipped a lot of random tools along the way. Most of the early experiments went nowhere, but they taught me what actually breaks and how to write reliable software.
           </p>
 
           <p>
-            Today, all my energy and focus go into building{" "}
+            Right now most of my time goes into{" "}
             <a
               href="https://intenthost.com"
               target="_blank"
@@ -74,11 +74,11 @@ export function AboutSection() {
               Intent Host
               <ArrowUpRight className="w-3.5 h-3.5" />
             </a>
-            . Getting a website or server online should not be complicated or stressful. We provide fast NVMe web hosting, managed WordPress, cloud instances, bare metal servers, and domain registration with simple controls and dependable support.
+            . Setting up hosting and domains is usually annoying and full of upsells, so we built something cleaner. Fast NVMe storage, LiteSpeed, cPanel, and servers that just run without weird issues.
           </p>
 
           <p className="text-foreground/80">
-            I keep this site monochrome on purpose. Black and white strips away visual clutter, letting the typography, spacing, and structure stand on their own.
+            The site is in monochrome on purpose. No random colors or decorations, just clean typography and spacing that lets things speak for themselves.
           </p>
         </div>
       </motion.div>

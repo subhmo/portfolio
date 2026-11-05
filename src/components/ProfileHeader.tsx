@@ -203,7 +203,7 @@ export function ProfileHeader({ initialContributions = [] }: ProfileHeaderProps)
           variants={subtleItemVariants}
           className="text-sm sm:text-base text-foreground/90 leading-relaxed max-w-2xl font-normal"
         >
-          Founder & CEO at{" "}
+          Founder at{" "}
           <a
             href="https://intenthost.com"
             target="_blank"
@@ -213,7 +213,7 @@ export function ProfileHeader({ initialContributions = [] }: ProfileHeaderProps)
             Intent Host
             <ArrowUpRight className="w-3.5 h-3.5" />
           </a>
-          {", offering fast NVMe web hosting, cloud infrastructure, bare metal servers, and domain services."}
+          {", building fast web hosting, cloud servers, and domain infrastructure."}
         </motion.p>
       </div>
     </motion.div>

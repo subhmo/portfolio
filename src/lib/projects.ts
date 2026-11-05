@@ -17,15 +17,15 @@ export const PROJECTS: Project[] = [
   {
     id: "intent-host",
     name: "Intent Host",
-    tagline: "Fast Web Hosting, Cloud Infrastructure and Domains",
+    tagline: "Web Hosting, Cloud Infrastructure and Domains",
     category: "Web Infrastructure",
-    role: "Founder & CEO",
+    role: "Founder",
     description:
-      "A web hosting and infrastructure platform built to make running websites simple and dependable. Provides NVMe shared hosting, managed WordPress, cloud instances, bare metal servers, and domain registration with cPanel and 24/7 technical support.",
+      "A hosting and infrastructure platform built to make running websites simple and reliable. Provides NVMe storage, LiteSpeed servers, cPanel management, managed WordPress, cloud instances, and round the clock support.",
     image: "/IntentHost.png",
     url: "https://intenthost.com",
     actionLabel: "Visit intenthost.com",
-    specs: ["LiteSpeed and NVMe", "cPanel Access", "Managed WordPress", "Anycast DNS"],
+    specs: ["LiteSpeed and NVMe", "cPanel Management", "Managed WordPress", "Anycast DNS"],
     techStack: ["Web Hosting", "Cloud Infrastructure", "NVMe Storage", "LiteSpeed", "cPanel/WHM", "Linux"],
   },
   {
@@ -33,9 +33,9 @@ export const PROJECTS: Project[] = [
     name: "Nodezed",
     tagline: "Developer Cloud Infrastructure and NVMe Servers",
     category: "Cloud Platform",
-    role: "Founder & CEO",
+    role: "Founder",
     description:
-      "A developer-first cloud platform created to spin up high-speed NVMe servers, Anycast networking, and container environments in seconds without complicated configuration.",
+      "Cloud platform built for developers to launch fast NVMe servers, edge networking, and container environments in seconds without complicated configuration.",
     image: "/Nodezed.png",
     url: "https://nodezed.com",
     actionLabel: "Visit nodezed.com",
@@ -45,7 +45,7 @@ export const PROJECTS: Project[] = [
   {
     id: "sync-disk",
     name: "Sync Disk",
-    tagline: "Real-Time macOS External Disk Mirror and Backup",
+    tagline: "macOS External Disk Mirror and Backup",
     category: "macOS System Tool",
     description:
       "A lightweight macOS menu bar tool that mirrors local folders to external drives in real time. Uses native FSEvents to track file changes instantly, with deduplication and safe iCloud Drive handling to keep files protected.",
@@ -53,7 +53,7 @@ export const PROJECTS: Project[] = [
     url: "https://github.com/subhmo/Sync-Disk",
     actionLabel: "View on GitHub",
     githubUrl: "https://github.com/subhmo/Sync-Disk",
-    specs: ["Real-Time FSEvents", "SHA-256 Deduplication", "iCloud Eviction", "Point-in-Time Restore"],
+    specs: ["Live FSEvents Sync", "SHA256 Deduplication", "iCloud Safe Eviction", "Point in Time Restore"],
     techStack: ["Swift", "macOS Sonoma/Sequoia", "FSEvents", "AppKit", "System Architecture"],
   },
 ];
