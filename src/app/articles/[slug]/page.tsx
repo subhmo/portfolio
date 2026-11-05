@@ -128,9 +128,13 @@ export default function ArticleDetailPage({ params }: Props) {
         <header className="px-4 sm:px-8 pt-8 sm:pt-10 pb-4 sm:pb-5 border-b border-border space-y-4">
           {/* Category Tag */}
           <div className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-muted-foreground">
-            <span>Cloud Infrastructure</span>
-            <span>•</span>
-            <span>Nodezed</span>
+            <span>{article.tags[0] || "Article"}</span>
+            {article.tags[1] && (
+              <>
+                <span>•</span>
+                <span>{article.tags[1]}</span>
+              </>
+            )}
           </div>
 
           {/* Title & Subtitle */}
@@ -253,21 +257,21 @@ export default function ArticleDetailPage({ params }: Props) {
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div className="space-y-1">
               <h3 className="text-sm font-bold text-foreground">
-                Nodezed is building developer-first cloud infrastructure.
+                {article.callout?.title || "Nodezed is building developer-first cloud infrastructure."}
               </h3>
               <p className="text-xs text-muted-foreground">
-                Engineered for speed, transparency, and total control.
+                {article.callout?.description || "Engineered for speed, transparency, and total control."}
               </p>
             </div>
 
             <div className="shrink-0">
               <a
-                href="https://nodezed.com"
+                href={article.callout?.url || "https://nodezed.com"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-mono bg-foreground text-background hover:bg-foreground/90 font-medium shadow-xs transition-colors"
               >
-                <span>Visit Nodezed</span>
+                <span>{article.callout?.actionLabel || "Visit Nodezed"}</span>
                 <ArrowUpRight className="w-3.5 h-3.5" />
               </a>
             </div>

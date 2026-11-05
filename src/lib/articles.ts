@@ -15,6 +15,12 @@ export interface Article {
   tags: string[];
   summary: string;
   author: ArticleAuthor;
+  callout?: {
+    title: string;
+    description: string;
+    actionLabel: string;
+    url: string;
+  };
   sections: {
     heading?: string;
     paragraphs?: string[];
@@ -24,6 +30,111 @@ export interface Article {
 }
 
 export const ARTICLES: Article[] = [
+  {
+    slug: "why-we-are-building-intent-host",
+    title: "Why We are Building Intent Host",
+    subtitle:
+      "Web hosting should be fast, dependable, and simple to set up without hidden catches.",
+    date: "Nov 5, 2026",
+    readTime: "4 min read",
+    image: "/articles/intenthost-building.png",
+    tags: ["Web Hosting", "Intent Host", "Infrastructure", "Founders"],
+    summary:
+      "Hosting a website or registering a domain should not feel like navigating a maze. Here is why we started Intent Host and what we are building.",
+    author: {
+      name: "Subh Mondal",
+      role: "Founder & CEO at Intent Host",
+      handle: "@subhmondal_",
+      avatar: "https://avatars.githubusercontent.com/u/269526018",
+    },
+    callout: {
+      title: "Intent Host is built for everyday creators and businesses.",
+      description: "Fast NVMe hosting, managed WordPress, cloud instances, and domains.",
+      actionLabel: "Visit intenthost.com",
+      url: "https://intenthost.com",
+    },
+    sections: [
+      {
+        paragraphs: [
+          "Almost every digital project begins with two basic steps: you register a domain name, and you find a reliable place to host it.",
+          "It sounds simple enough, but traditional web hosting has become increasingly frustrating over the years. You sign up for an attractive introductory rate, only to run into sluggish storage, throttled CPU, steep renewal price hikes, and support teams that hide behind automated chatbots.",
+          "Web hosting should just work. It should be fast, transparent, and easy to manage.",
+        ],
+      },
+      {
+        heading: "The problems with traditional hosting",
+        paragraphs: [
+          "The main problem with legacy providers is that they treat hosting like a commodity to squeeze rather than a vital service that people rely on every day.",
+          "First, the performance trade-off. Many budget hosts still place hundreds of sites on aging SATA drives or crowded servers. As soon as one neighbor experiences a traffic spike, everyone else slows to a crawl.",
+          "Second, confusing pricing tricks. You often see plans advertised at low prices, only to find renewal bills jumping three or four times higher, with fundamental features like SSL certificates, automated backups, or privacy protection locked behind add-on fees.",
+          "Third, support that rarely solves problems. When your website goes down or an email fails to deliver, you need an engineer who understands DNS, web servers, and Linux. Waiting two days for a scripted response in a ticket queue is unacceptable.",
+        ],
+      },
+      {
+        heading: "What we are building with Intent Host",
+        paragraphs: [
+          "Intent Host is our direct answer to those pain points. We wanted to create a hosting provider where the defaults are actually good.",
+          "Instead of cutting corners on server hardware, we run enterprise NVMe storage paired with LiteSpeed web servers. This ensures static assets, database queries, and dynamic pages load noticeably faster right from day one.",
+          "We also brought the essential services together under one roof so you do not have to manage multiple accounts across different vendors:",
+        ],
+        list: [
+          "Shared Hosting with NVMe storage and LiteSpeed for personal sites and small businesses",
+          "Managed WordPress hosting with WP Toolkit, automatic updates, and server level caching",
+          "Dedicated Cloud Hosting with isolated CPU and RAM resources that scale on demand",
+          "Domain registration, transfers, and DNS management with privacy protection included",
+          "High speed VPS and dedicated bare metal Intel and AMD servers for serious workloads",
+          "Reseller hosting solutions for agencies and developers managing client sites",
+        ],
+      },
+      {
+        heading: "Simple controls and proven standards",
+        paragraphs: [
+          "We chose industry standard tools like cPanel because they are proven and familiar. You get full control over your files, databases, DNS records, and email accounts without being locked into a proprietary dashboard.",
+          "We also keep our pricing upfront. Essential security, automated SSL, and dependable backups are standard parts of the service, not surprise upsells.",
+        ],
+      },
+      {
+        heading: "Real support from real people",
+        paragraphs: [
+          "When you run a business or launch a new idea, downtime is stressful. We treat support as a core engineering responsibility.",
+          "Whether you need help configuring DNS records, migrating an existing WordPress site, or picking the right server configuration, our team is available 24/7 with practical, knowledgeable help.",
+        ],
+      },
+      {
+        heading: "Our core principles",
+        principles: [
+          {
+            number: "01",
+            title: "NVMe speed by default",
+            body: "Enterprise NVMe storage and LiteSpeed should be standard, not an expensive tier.",
+          },
+          {
+            number: "02",
+            title: "Honest pricing",
+            body: "Clear rates with essential tools included. No hidden renewal shocks or mandatory add-on fees.",
+          },
+          {
+            number: "03",
+            title: "Open standards",
+            body: "We rely on proven platforms like cPanel so you always maintain complete control over your data.",
+          },
+          {
+            number: "04",
+            title: "Direct technical help",
+            body: "Real engineers who understand servers and infrastructure ready to help when it matters.",
+          },
+        ],
+      },
+      {
+        heading: "Looking ahead",
+        paragraphs: [
+          "Hosting is not about chasing fleeting trends. It is about steady uptime, reliable performance, and treating people fairly over the long term.",
+          "Intent Host is built for anyone who wants to get online, build their presence, and trust that their infrastructure is in good hands.",
+          "We are excited for what is ahead, and we look forward to hosting what you build next.",
+        ],
+      },
+    ],
+  },
   {
     slug: "why-we-are-building-nodezed",
     title: "Why We are Building Nodezed",
